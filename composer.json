@@ -1,0 +1,10 @@
+{
+    "name": "topvisor/testtask",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Topvisor\\Testtask\\": "src/"
+        }
+    },
+    "require": {}
+}
