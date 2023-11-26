@@ -8,10 +8,11 @@ class App
 {
     public function run()
     {
-        $garden = new Garden(10, 50);
+        $n = 10; // количество деревьев
+        $n2 = 50; // количество яблок на каждом дереве
+        $daysCount = 31; // количество суток для просчета
 
-        // Введите количество дней для просчета
-        $daysCount = 31;
+        $garden = new Garden($n, $n2);
 
         for ($i = 1; $i <= $daysCount; $i++) {
             $garden->passDay();
